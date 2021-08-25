@@ -1,10 +1,3 @@
-'''
-Author  :  Sarfaraz
-Date    :  14/05/2021
-Purpose :  Second Project
-pip install pygame
-'''
-
 import random  # Generate random numbers
 import sys    # sys.exit to exit the program
 import pygame
@@ -24,7 +17,7 @@ PIPE = 'content/sprites/pipe.png'
 
 
 def welcomeScreen():
-    '''Shows welcome image on the screen'''
+    # Shows welcome image on the screen
     playerx = int(SCREENWIDTH/5)
     playery = int((SCREENHEIGHT - GAME_SPRITES['player'].get_height())/2)
     messagex = int((SCREENWIDTH - GAME_SPRITES['message'].get_width())/2)
@@ -174,7 +167,7 @@ def isCollide(playerx, playery, upperPipes, lowerPipes):
 
 
 def getRandomPipe():
-    '''Generate positions of two pipes for blitting on the screen i.e. one bottom straight and one top rotated'''
+    # Generate positions of two pipes for blitting on the screen i.e. one bottom straight and one top rotated
     pipeHeight = GAME_SPRITES['pipe'][0].get_height()
     offset = SCREENHEIGHT/3
     y2 = offset + random.randrange(0, int(SCREENHEIGHT -
