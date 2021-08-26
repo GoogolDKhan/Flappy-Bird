@@ -4,7 +4,7 @@
 
 ## How to play
 
-- Player need to press Spacebar or up arrow key to start the game and same key is used for flying the bird upward.
+- Players need to press Spacebar or up arrow key to start the game and the same key is used for flying the bird upward.
 
 ## Running
 
