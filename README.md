@@ -1,4 +1,4 @@
-# Flappy Bird
+# Flappy Bird [![CodeFactor](https://www.codefactor.io/repository/github/googoldkhan/flappy-bird/badge/main)](https://www.codefactor.io/repository/github/googoldkhan/flappy-bird/overview/main)
 
 -  A fun game developed using pygame module of python
 
